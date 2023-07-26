@@ -1,6 +1,8 @@
 <template>
   <div class="p-4">
     <SearchFilter />
+    <ArticleFunction />
+    <ArticleManage />
     <!-- <SiteAnalysis class="!my-4 enter-y" :loading="loading" />
     <div class="md:flex enter-y">
       <VisitRadar class="md:w-1/3 w-full" :loading="loading" />
@@ -12,7 +14,8 @@
 <script lang="ts" setup>
   import { ref } from 'vue';
   import SearchFilter from './components/SearchFilter.vue';
-  // import SiteAnalysis from './components/SiteAnalysis.vue';
+  import ArticleFunction from './components/ArticleFunction.vue';
+  import ArticleManage from './components/ArticleManage.vue';
   // import VisitSource from './components/VisitSource.vue';
   // import VisitRadar from './components/VisitRadar.vue';
   // import SalesProductPie from './components/SalesProductPie.vue';
