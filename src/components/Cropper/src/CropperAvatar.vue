@@ -37,7 +37,7 @@
     ref,
     watchEffect,
     watch,
-    PropType,
+    type PropType,
   } from 'vue';
   import CropperModal from './CropperModal.vue';
   import { useDesign } from '/@/hooks/web/useDesign';

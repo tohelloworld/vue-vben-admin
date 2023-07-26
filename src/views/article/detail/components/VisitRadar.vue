@@ -11,10 +11,12 @@
   const props = defineProps({
     loading: Boolean,
     width: {
+      // eslint-disable-next-line no-undef
       type: String as PropType<string>,
       default: '100%',
     },
     height: {
+      // eslint-disable-next-line no-undef
       type: String as PropType<string>,
       default: '300px',
     },
